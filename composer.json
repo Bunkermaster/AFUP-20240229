@@ -1,0 +1,24 @@
+{
+    "name": "bunker/20240229-presentation-afup",
+    "description": "AFUP talk code",
+    "type": "project",
+    "require-dev": {
+        "phpstan/phpstan": "^1.10",
+        "squizlabs/php_codesniffer": "^3.8",
+        "friendsofphp/php-cs-fixer": "^3.48"
+    },
+    "autoload": {
+        "psr-4": {
+            "Bunker\\20240229PresentationAfup\\": "src/"
+        },
+        "files": [
+            "src/functions.php"
+        ]
+    },
+    "authors": [
+        {
+            "name": "bunkermaster",
+            "email": "bunkermaster@gmail.com"
+        }
+    ]
+}
